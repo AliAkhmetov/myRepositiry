@@ -1,0 +1,64 @@
+
+.mainAria{
+width: 550px;
+height: 600px;
+background-color: #002628;
+border-radius: 20px;
+position: absolute;
+top: 0px;
+left:0px;
+}
+.chatAria{
+border-radius: 25px;
+width: 450px;
+height: 500px;
+background-color:#e9ffdb;
+position: absolute;
+top: 50px;
+left:50px;
+}
+.sendAria{
+border-radius: 35px ;
+width: 450px;
+height: 50px;
+border: 6px solid  #002628;
+background-color:  #c89e74  ;
+position: absolute;
+top: 500px;
+left:44px;
+}
+.tipeAria{
+  border-radius: 35px ;
+  width: 430px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+  left:10px;
+  border: 0px solid  #c89e74 ;
+  background-color:  #c89e74  ;
+}
+.submit {
+  visibility: hidden;
+}
+.incomMess  {
+border-radius: 0 8px 8px 0px;
+width: 300px;
+height: 30px;
+position: absolute;
+border: 2px;
+background-color: #2bb9b2cc;
+top: 50px;
+left: 7px;
+visibility: hidden;
+}
+.outgoMess{
+border-radius:  8px 0 0 8px;
+width: 300px;
+height: 30px;
+position: absolute;
+border: 2px;
+background-color: #00ae2eb8;
+top: 100px;
+left: 143px;
+visibility: hidden;
+}
