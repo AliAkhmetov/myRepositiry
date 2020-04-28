@@ -1,4 +1,16 @@
+::-webkit-scrollbar {
+    width: 12px;
+}
 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
 .mainAria{
 width: 550px;
 height: 600px;
@@ -9,6 +21,7 @@ top: 0px;
 left:0px;
 }
 .chatAria{
+  z-index: 5px;
 border-radius: 25px;
 width: 450px;
 height: 500px;
@@ -17,8 +30,18 @@ position: absolute;
 top: 50px;
 left:50px;
 }
+.chatAria1{
+  position: absolute;
+      z-index: 6px;
+      overflow: auto;
+      width: 430px;
+      height: 420px;
+      top: 15px;
+      left: 5px;
+  }
 .sendAria{
 border-radius: 35px ;
+z-index: 100px;
 width: 450px;
 height: 50px;
 border: 6px solid  #002628;
@@ -28,6 +51,7 @@ top: 500px;
 left:44px;
 }
 .tipeAria{
+  z-index: 101px;
   border-radius: 35px ;
   width: 430px;
   height: 30px;
@@ -52,13 +76,20 @@ left: 7px;
 visibility: hidden;
 }
 .outgoMess{
-border-radius:  8px 0 0 8px;
-width: 300px;
-height: 30px;
-position: absolute;
-border: 2px;
-background-color: #00ae2eb8;
-top: 100px;
-left: 143px;
-visibility: hidden;
+  border-radius: 8px 0 0 8px;
+  width: 300px;
+  /* height: 30px; */
+  /* position: absolute; */
+  /* border: 2px; */
+  background-color: #00ae2eb8;
+  /* top: 100px; */
+  /* left: 143px; */
+  float: right;
+  margin-top: 10px;
+  padding: 6px;
+  word-wrap: break-word;
+
+}
+.hidden{
+  visibility: hidden;
 }
