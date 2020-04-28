@@ -1,7 +1,7 @@
 <?php
 $post = $_POST['message'];
 
-require('db.php');
+require('connectDB.php');
 
 $connect = connect_db();
 // Ругаемся, если соединение установить не удалось

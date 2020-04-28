@@ -14,22 +14,15 @@
   <div class="mainAria">
     <div class="chatAria">
       <div class="chatAria chatAria1" id="chatAria1">
+      </div>
+  
 
-
-      <?php
-        foreach ($messages as $key => $value) {
-          echo ('<div class="outgoMess" id="'. $key .'">'. $value['TEXT'] .'</div>');
-        }
-       ?>
-         <script type="text/javascript"> var block = document.getElementById("chatAria1");
-     block.scrollTop = block.scrollHeight;</script>
-  </div>
       <div class="incomMess">
       </div>
     </div>
 
     <div class="sendAria">
-      <form id="formElem" charset="utf-8">
+      <form id="formElem" class="formElem" charset="utf-8">
          <input  charset="utf-8" name="message" type="text" class="tipeAria"  contenteditable="true">
  <input type="submit" value=""  class="submit">
 </form>
